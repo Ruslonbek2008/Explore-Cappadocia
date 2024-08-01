@@ -1,0 +1,121 @@
+.nav {
+    animation-name: nav;
+    animation-duration: 1s;
+    position: relative;
+}
+
+@keyframes nav {
+    0% {
+        top: -30px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+.header-heading {
+    animation-name: headerHeading;
+    animation-duration: 1s;
+    position: relative;
+}
+
+@keyframes headerHeading {
+    0% {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.header-info {
+    animation-name: headerInfo;
+    animation-duration: 1s;
+    position: relative;
+}
+
+@keyframes headerInfo {
+    0% {
+        transform: translateY(200px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.container {
+    overflow: hidden;
+}
+
+.about-us-img {
+    animation-name: aboutUsImg;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    position: relative;
+}
+
+@keyframes aboutUsImg {
+    0% {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.about-us-wrap {
+    animation-name: aboutUsWrap;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    position: relative;
+}
+
+@keyframes aboutUsWrap {
+    0% {
+        transform: translateX(200px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.lets-see-wrap {
+    animation-name: letsSeeWrap;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    position: relative;
+}
+
+@keyframes letsSeeWrap {
+    0% {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.lets-see-p-wrap {
+    animation-name: aboutUsWrap;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    position: relative;
+}
